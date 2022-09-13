@@ -1,4 +1,4 @@
-var socket = new WebSocket("ws://localhost:8080/ws")
+let socket = new WebSocket("ws://localhost:8080/ws")
 
 function connect(updatePage: (_: MessageEvent<string>) => void) {
     console.log("Attempting connection...");
